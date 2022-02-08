@@ -249,7 +249,7 @@ app.listen(4000)
 
 mongoose.connect("mongodb+srv://admin:ervinas@cluster0.is4uj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
     .then(res => {
-        console.log("connection good")
+        console.log("connection good to backend")
     }).catch(e => {
     console.log(e)
 })
