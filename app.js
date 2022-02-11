@@ -242,6 +242,7 @@ const express = require("express")
 const app = express()
 const mongoose = require('mongoose')
 
+
 app.use(cors())
 app.use(express.json())
 app.listen(4000)
@@ -257,6 +258,11 @@ mongoose.connect("mongodb+srv://admin:ervinas@cluster0.is4uj.mongodb.net/myFirst
 
 const router = require("./routes/main")
 app.use("/", router)
+
+
+
+
+
 
 
 
